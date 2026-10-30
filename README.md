@@ -51,15 +51,19 @@ Source/문어_유한맵/
       Player/    플레이어
       UI/        화면 UI
       World/     맵과 스테이지
+    Editor/      빌드 도구
+      Checks/    이펙트와 규칙을 확인하는 검사 스크립트
     Scenes/
-    Resources/
+    Resources/   코드에서 이름으로 불러오는 그림, 데이터
+    Settings/    렌더링, 입력 설정
   Packages/
   ProjectSettings/
+docs/            플레이 화면 GIF, Relay 설정 방법
 ```
 
 ## 온라인 협동 구성
 
-플레이어 A가 방장이 되어 게임 계산을 맡고, Unity Relay는 두 사람 사이의 데이터만 중계합니다. 플레이어 B는 입력을 보내고 결과를 받습니다. 처음에는 같은 네트워크에서만 접속되는 포트 방식으로 만들었고, 다른 네트워크에서도 접속할 수 있도록 Relay로 바꾸었습니다.
+플레이어 A가 방장이 되어 게임 계산을 맡고, Unity Relay는 두 사람 사이의 데이터만 중계합니다. 플레이어 B는 입력을 보내고 결과를 받습니다. 처음에는 같은 네트워크에서만 접속되는 포트 방식으로 만들었고, 다른 네트워크에서도 접속할 수 있도록 Relay로 바꾸었습니다. Relay를 처음 설정하는 방법은 [docs/Relay설정방법.txt](docs/Relay설정방법.txt)에 있습니다.
 
 ## 현재 상태와 앞으로
 

@@ -151,7 +151,7 @@ namespace OctopusSurvivors
                        "1) 방장이 먼저 '방 만들기'를 눌렀는지\n" +
                        "2) 참가 코드 6글자가 맞는지\n" +
                        "3) 두 PC 모두 인터넷이 되는지, Unity 프로젝트가 연결됐는지\n" +
-                       "확인해 주세요. (Assets/Relay설정방법.txt)";
+                       "확인해 주세요. (docs/Relay설정방법.txt)";
             }
 
             return $"{_connectTarget} 접속 실패.{reason}\n" +
