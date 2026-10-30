@@ -59,7 +59,7 @@ Source/문어_유한맵/
         Common/    공통 UI 도구
       World/     맵과 스테이지
     Editor/      빌드 도구
-      Checks/    이펙트와 규칙을 확인하는 검사 스크립트
+      Checks/    빌드 전에 조합 규칙과 맵 설정을 확인하는 검사
     Scenes/
     Resources/   코드에서 이름으로 불러오는 그림, 데이터
     Settings/    렌더링, 입력 설정
