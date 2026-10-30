@@ -44,12 +44,19 @@
 Source/문어_유한맵/
   Assets/
     Scripts/
-      Combat/    전투, 공격
       Core/      게임 진행 규칙
-      Elements/  속성과 합성
+      Skills/    스킬
+        Common/    속성 규칙, 효과 공통 처리, 업그레이드
+        Fire/ Water/ Grass/ Electric/    기본 속성 스킬
+        Combos/    속성을 합친 스킬 (BlueFlame, Soda, Tree)
+        Special/   보스 처치 후 특수 요소
       Net/       온라인 접속 (Netcode, Relay)
       Player/    플레이어
       UI/        화면 UI
+        InGame/    플레이 중 화면 (체력 표시, 조합표)
+        Lobby/     접속, 대기실
+        Dev/       개발용 메뉴
+        Common/    공통 UI 도구
       World/     맵과 스테이지
     Editor/      빌드 도구
       Checks/    이펙트와 규칙을 확인하는 검사 스크립트
